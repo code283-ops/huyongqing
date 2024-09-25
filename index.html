@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>胡永庆的个人网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+        }
+        .content {
+            margin-top: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #e6e6e6;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        
+        /* 添加新的样式 */
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .profile-text {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>胡永庆的个人网站</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>关于我</h2>
+            <div class="profile">
+                <img src="images/huyongqing_avatar.png" alt="胡永庆的照片" 
+                     onerror="console.error('图片加载失败', this.src); this.onerror=null; this.src='file:///C:/Users/2004h/Pictures/Saved%20Pictures/file%253A/D%253A/%2525E4%2525BB%2525A3%2525E7%2525A0%252581%2525E6%2525B5%25258B%2525E8%2525AF%252595/images/huyongqing_avatar.png';"
+                     onload="console.log('图片加载成功');">
+                <div class="profile-text">
+                    <p>你好！我是胡永庆，一名热爱技术的软件开发者。我对创新和解决问题充满热情，并且一直在寻求新的挑战和学习机会。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2>我的技能</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>联系我</h2>
+            <p>Email: huyongqing@example.com</p>
+            <p>GitHub: github.com/huyongqing</p>
+            <p>LinkedIn: linkedin.com/in/huyongqing</p>
+        </div>
+    </div>
+
+    <script>
+        // 如果需要，可以在这里添加JavaScript代码
+    </script>
+</body>
+</html>
